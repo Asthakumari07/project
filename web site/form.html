@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>College Admission Forms</title>
+    <link rel="stylesheet" href="form1.css">
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" placeholder="eg. Astha"> </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email"> </td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type ="radio" name="gender">Male
+                    <input type ="radio" name="gender">Female
+                </td>
+            </tr>
+            <tr>
+                <td>Courses</td>
+                <td>
+                    <input type="checkbox" name="courses" value="bca">BCA
+                    <input type="checkbox" name="courses" value="bba">BBA
+                    <input type="checkbox" name="courses" value="bjmc">BJMC
+                    <input type="checkbox" name="courses" value="b.tech">B.tech
+                </td>
+            </tr>
+
+            <tr>
+                <td>city</td>
+                <td>
+                    <select name="city" id="city">
+                        <option value="UP">Utter Pradesh</option>
+                        <option value="bihar">Bihar</option>
+                        <option value="MP">Madhya Pradesh</option>
+                        <option value="delhi">Delhi</option>
+                        <option value="jharkhand">Jharkdand</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>upload image</td>
+                <td><input type="file"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="submit" value="Submit form">
+                    <input type="Reset" value="Rest form">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

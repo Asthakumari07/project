@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Our Courses | College Name</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Optional external stylesheet -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #0056b3;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        .course-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .course-item {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: calc(50% - 20px);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .course-item:hover {
+            transform: translateY(-10px);
+        }
+
+        .course-item h3 {
+            color: #0056b3;
+            font-size: 1.8em;
+        }
+
+        .course-item p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        .course-item a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #0056b3;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .course-item a:hover {
+            background-color: #003d7a;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Responsive Design for Smaller Screens */
+        @media (max-width: 768px) {
+            .course-item {
+                width: calc(100% - 20px);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Our Courses</h1>
+</header>
+
+<div class="container">
+    <div class="course-list">
+        <!-- BCA Course -->
+        <div class="course-item">
+            <h3>BCA - Bachelor of Computer Applications</h3>
+            <p>The BCA program offers a comprehensive foundation in computer science, programming, and IT skills, preparing students for a variety of roles in the technology industry.</p>
+            <a href="bca-details.html">Learn More</a>
+        </div>
+
+        <!-- BBA Course -->
+        <div class="course-item">
+            <h3>BBA - Bachelor of Business Administration</h3>
+            <p>The BBA course is designed to provide a solid foundation in business concepts, management skills, and entrepreneurship, preparing students for leadership roles in the corporate world.</p>
+            <a href="bba-details.html">Learn More</a>
+        </div>
+
+        <!-- B.Tech Course -->
+        <div class="course-item">
+            <h3>B.Tech - Bachelor of Technology</h3>
+            <p>The B.Tech program focuses on providing a strong foundation in engineering principles, technology innovation, and practical application of engineering in various fields such as Computer Science, Mechanical, Civil, etc.</p>
+            <a href="btech-details.html">Learn More</a>
+        </div>
+
+        <!-- MCA Course -->
+        <div class="course-item">
+            <h3>MCA - Master of Computer Applications</h3>
+            <p>The MCA program is a postgraduate degree focused on advanced software development, computing, and IT management, equipping students with the skills required for high-level roles in the tech industry.</p>
+            <a href="mca-details.html">Learn More</a>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 College Name | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
+
