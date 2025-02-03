@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator: Astha Shasrma</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="frame">
+        <p class="heading">ASTHA</p>
+        <div clasas="display">
+            <input type="text" id="displays" disabled>
+        
+        </div>
+        <br>
+        <div class="buttons-group">
+            <input class="button" type="button" value="9" onclick="displays.value +='9'">
+            <input class="button" type="button" value="8" onclick="displays.value +='8'">
+            <input class="button" type="button" value="7" onclick="displays.value +='7'">
+            <input class="button" type="button" value="+" onclick="displays.value +='+'">
+            
+        </div>
+        <div class="buttons-group">
+            <input class="button" type="button" value="6" onclick="displays.value +='6'">
+            <input class="button" type="button" value="5" onclick="displays.value +='5'">
+            <input class="button" type="button" value="4" onclick="displays.value +='4'">
+            <input class="button" type="button" value="-" onclick="displays.value +='-'">
+            
+        </div>
+        <div class="buttons-group">
+            <input class="button" type="button" value="3" onclick="displays.value +='3'">
+            <input class="button" type="button" value="2" onclick="displays.value +='2'">
+            <input class="button" type="button" value="1" onclick="displays.value +='1'">
+            <input class="button" type="button" value="*" onclick="displays.value +='*'">
+            
+        </div>
+        <div class="buttons-group">
+            <input class="button" type="button" value="C" onclick="displays.value = ' ' ">
+            <input class="button" type="button" value="0" onclick="displays.value +='0'">
+            <input class="button" type="button" value="/" onclick="displays.value +='/'">
+            <input class="button" type="button" value="=" onclick="displays.value = eval(displays.value)">
+        </div>
+    </div>
+    <script src="new.js"></script>
+</body>
+</html>
