@@ -1,0 +1,47 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#box1 {
+    position: static; 
+}
+
+#box2 {
+    position: relative;
+    top: 20px;
+    right: 10px;
+    background-color: rgb(156, 138, 173);
+    z-index: -1;
+}
+
+#box3 {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    background-color: blueviolet;
+    background-image: url("ASTHA\ image.jpeg");
+    background-size: cover;
+}
+
+/* #box3 {
+    position: sticky;
+    top: 500px;
+    left: 20px;
+    background-color: blueviolet;
+} */
+
+#box4 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgb(180, 122, 235);
+}
+
+body {
+    background-image: url("ASTHA\ image.jpeg");
+    background-size: cover;
+}

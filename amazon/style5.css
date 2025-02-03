@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+}
+
+div {
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container {
+    height: 200px;
+    width: 600px;
+    display: flex;   
+    flex-direction: row;
+    justify-content: center;
+}
+
+#box1 {
+    background-color: aqua;
+    flex-shrink: 2;
+}
+
+#box2 {
+    background-color: green;
+}
+
+#box3 {
+    background-color: gray;
+}
+
+#box4 {
+    background-color: rgb(104, 104, 188);
+}
+
+#box5 {
+    background-color: rgb(23, 91, 91);
+}

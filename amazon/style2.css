@@ -1,0 +1,26 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(128, 221, 221);
+    /* border-width: 2px;
+    border-color: blueviolet;
+    border-style: double; */
+    /* text-align: center; */
+    border: 2px double blueviolet;
+    border-radius: 5px;
+    /* padding-left: 25px;
+    padding-bottom: 25px; */
+    padding: 2px 3px 2px 3px;
+    /* margin-top: 50px; */
+    margin: 5px 10px 5px 10px;
+}
+
+h1 {
+    height: 50px;
+    width: 200px;
+    background-color: blanchedalmond;
+    border-width: 3px;
+    border-style: dotted;
+    border-color: darkblue;
+    text-align: center;
+} 

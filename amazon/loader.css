@@ -1,0 +1,19 @@
+.loader {
+    width: 100px;
+    height: 100px;
+    /* background-color: rgb(109, 201, 201); */
+    border: 20px solid rgb(232, 232, 107);
+    border-top: 20px solid skyblue;
+    border-radius: 50%;
+    animation: astha 3s steps(5) 0s infinite normal;
+}
+
+@keyframes astha {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+    
+}
